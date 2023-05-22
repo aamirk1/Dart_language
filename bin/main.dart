@@ -110,14 +110,14 @@ comment
 
 // ## Equality and Relational Operators
 
-var a= 10;
-var b = 20;
-print(a == b);
-print(a != b);
-print(a > b);
-print(a < b);
-print(a >= b);
-print(a <= b);
+// var a= 10;
+// var b = 20;
+// print(a == b);
+// print(a != b);
+// print(a > b);
+// print(a < b);
+// print(a >= b);
+// print(a <= b);
 
 // ## Logical Operators
 
@@ -130,6 +130,92 @@ print(a <= b);
     true || false = false;
     false || true = false;
     false || false = false; */
+
+    // var a = 100;
+    // var b = 100;
+    // var c = 20;
+    // var d = 20;
+    // print((a == b) && (c == d));
+    // print((a == b) || (c == d));
+
+    // ## Type Test Operators
+    // var name = "Flutter";
+    // var num = 10;
+    // print(name is String);
+    // print(num is int);
+    // print(num is! int);
+
+    // ## Assignment Operators
+    //var n = 10;
+    //n += 5; // n = n + 5
+    //n -= 5; // n = n - 5
+    //n *= 5; // n = n * 5
+    //print(n);
+
+    // # Conditional Expression
+
+    // var is_login = false;
+    // var user = is_login ? 'flutter' : 'dart';
+    // print(user);
+
+    // var name = 'Flutter';
+    // var user = name ?? 'Dart';
+    // print(user);
+
+    // # String
+    // String name1 = "Flutter";
+    // print(name1);
+    // print(name1.runtimeType);
+
+    // String name2 = "Dart Programming Language";
+    // print(name2);
+
+    // var name3 = 'Dart';
+    // print(name3);
+    // print(name3.runtimeType);
+
+    // var s1 = 'It\'s a language';
+    // print(s1);
+
+    // var s2 = "It's a Programming Language";
+    // print(s2);
+
+    // var multi_str = ''' This is 
+    // Multi line 
+    // String ''';
+    // print(multi_str);
+
+    // var multi_str1 = """ This 
+    // is 
+    // multi 
+    // line 
+    // String 
+    // with 
+    // double 
+    // quots""";
+    // print(multi_str1);
+
+    // ## Expression inside String
+    // var name = "Dart";
+    // print('${name}');
+    // print('$name');
+    // print('${name} is a Programming Language');
+    // print('$name is a Programming Language');
+    // print('This is a ${name.toUpperCase()} Programming Language');
+    // var frame = "Flutter";
+    // print('$frame is a framework of $name');
+
+    // ## String Concatenation
+    // print('Hello World');
+    // print('Hello' + 'World');
+    // print('Hello' + ' ' + 'World');
+
+    // var s1 = 'Hello';
+    // var s2 = 'Dart';
+    // print(s1 + s2);
+    // print(s1 + ' '+ s2);
+
+
 
 
 }
