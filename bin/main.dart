@@ -215,6 +215,101 @@ comment
     // print(s1 + s2);
     // print(s1 + ' '+ s2);
 
+    // ## Raw string
+    // var s = r'In a raw string, not even \n gets special treatment';
+    // print(s);
+
+    // ## String Properties and Methods
+    // var name = 'Flutter Dart';
+    // print(name.length);
+    // print(name.isEmpty);
+    // print(name.isNotEmpty);     
+
+    // print(name.toUpperCase());
+    // print(name.toLowerCase());  
+
+    // print(name.contains('t'));
+    // print(name.padLeft(10));
+    // print(name.padRight(10));
+
+    // var str1 = '     Hello           ';
+    // print(str1);
+    // print(str1.trim());
+    // print(str1.trimLeft());
+    // print(str1.trimRight());
+
+    // var str2 = "Hello&World";
+    // print(str2.split('&'));
+
+    // # List
+    // ## Fixed Length List
+    // var lst = new List.filled(3);
+    // lst[0] = 'Dart';
+    // lst[1] = 'Flutter';
+    // lst[1] = 'CPP';
+    
+    // print(lst);
+    // print(lst.runtimeType);
+
+    // ## Growable List
+    // var lst =  ['Dart','Flutter','CPP'];
+    // print(lst[0]);
+    // print(lst[1]);
+    // print(lst[1]);    
+    // print(lst);
+    // print(lst.runtimeType);
+
+    // var lst1 =  [1,2,3];
+    // print(lst1[0]);
+    // print(lst1[1]);
+    // print(lst1[1]);    
+    // print(lst1);
+    // print(lst1.runtimeType);
+ 
+    // var lst2 =  [1,2,3,4,"Hello"]; 
+    // print(lst2);
+    // print(lst2.runtimeType);
+
+    // var lst3 =  <int>[1,2,3,4]; 
+    // print(lst3);
+    // print(lst3.runtimeType);
+
+    // ## Access List Element
+    // var lst =  <String>['Dart','Flutter','CPP'];
+    // print(lst[0]);
+    // print(lst[1]);
+    // print(lst[1]);    
+    // print(lst);
+    // print(lst.runtimeType);
+
+    // var language = ["python", "javascript","CPP"];
+    // var framework = ["Angular", "Django","Flutter"];
+    // var frame = ["Reactjs", ...framework];
+    // print(frame);
+    // var combined = ["Dart", ...framework, ...language];
+    // print(combined);
+
+    // ## Empty List and add() Method
+    // List() Constructor
+    // var lang = new List.empty();
+    // lang.add("Dart");
+    // lang.add("Python");
+    // print(lang);
+    // print(lang.runtimeType);
+
+    // var lang = [];
+    // lang.add("Dart");
+    // lang.add("Python");
+    // print(lang);
+    // print(lang.runtimeType);
+
+    var lang = ["Angular", "Django","Flutter","Python"];
+    print(lang.length);
+    print(lang.isEmpty);
+    print(lang.isNotEmpty);
+    print(lang.reversed);
+    print(lang.first);
+    print(lang.last);
 
 
 
