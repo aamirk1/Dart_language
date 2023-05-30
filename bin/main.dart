@@ -303,14 +303,89 @@ comment
     // print(lang);
     // print(lang.runtimeType);
 
-    var lang = ["Angular", "Django","Flutter","Python"];
-    print(lang.length);
-    print(lang.isEmpty);
-    print(lang.isNotEmpty);
-    print(lang.reversed);
-    print(lang.first);
-    print(lang.last);
+    // var lang = ["Angular", "Django","Flutter","Python"];
+    // print(lang);
+    // print(lang.length);
+    // print(lang.isEmpty);
+    // print(lang.isNotEmpty);
+    // print(lang.reversed);
+    // print(lang.first);
+    // print(lang.last);
 
+    // lang.remove("Angular");
+    // print(lang);
+
+    // lang.removeAt(2);
+    // print(lang);
+
+    // lang.removeLast();
+    // print(lang);
+
+    // # Set
+
+    // var set1 = {"Flutter", "Python","Dart","Django"};
+    // print(set1);
+    // print(set1.runtimeType);
+
+    // var set2 = {1,2,3, "Flutter", "Python","Dart","Django"};
+    // print(set2);
+    // print(set2.runtimeType);
+
+    // var set3 = <String>{"Flutter", "Python","Dart","Django"};
+    // print(set3);
+    // print(set3.runtimeType);
+
+    // Set set4 = {"Flutter", "Python","Dart","Django"};
+    // print(set4);
+    // print(set4.runtimeType);
+
+    // Set<String> set5 = {"Flutter", "Python","Dart","Django"};
+    // print(set5);
+    // print(set5.runtimeType);
+
+    // ## Empty Set
+    // var set6 = <String>{};
+    // print(set6);
+    // print(set6.runtimeType);
+
+    // var set7 = <int>{};
+    // print(set7);
+    // print(set7.runtimeType);
+
+    // var set8 = {};  // Its a map not a Set
+    // print(set8);
+    // print(set8.runtimeType);
+
+    // Set<String> set9 = Set();
+    // print(set9);
+    // print(set9.runtimeType);
+
+    // Set<String> set0 = {};
+    // print(set0);
+    // print(set0.runtimeType);
+
+    // var language = <String>{};
+    // language.add('python');
+    // language.add('Dart');
+    // print(language);
+    // print(language.runtimeType);
+
+    // Duplicate value not consider in set
+    // var num = <int>{1,2,3,4,1,2,4,};
+    // print(num);
+    // print(num.runtimeType);
+
+    // # Map
+
+    var address = {
+      'name':'ABC',
+      'city':'Mumbai',
+      'State':'MH',
+      // 'Pincode':402110
+
+    };
+    print(address);
+    print(address.runtimeType);
 
 
 }
