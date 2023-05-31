@@ -354,7 +354,7 @@ comment
 
     // var set8 = {};  // Its a map not a Set
     // print(set8);
-    // print(set8.runtimeType);
+    // print(set8.runtimeType);   
 
     // Set<String> set9 = Set();
     // print(set9);
@@ -387,5 +387,11 @@ comment
     print(address);
     print(address.runtimeType);
 
-
+    var product = {1:'Mouse',2:'Keyboard',3:'Monitor'};
+    print(product);
+    print(product.runtimeType);
+     
+    var course = {"python":20000,"Java":30000,"Cpp":15000};
+    print(course);
+    print(course.runtimeType);
 }
