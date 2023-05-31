@@ -377,21 +377,70 @@ comment
 
     // # Map
 
-    var address = {
-      'name':'ABC',
-      'city':'Mumbai',
-      'State':'MH',
-      // 'Pincode':402110
+    // var address = {
+    //   'name':'ABC',
+    //   'city':'Mumbai',
+    //   'State':'MH',
+    //   // 'Pincode':402110
 
-    };
-    print(address);
-    print(address.runtimeType);
+    // };
+    // print(address);
+    // print(address.runtimeType);
 
-    var product = {1:'Mouse',2:'Keyboard',3:'Monitor'};
-    print(product);
-    print(product.runtimeType);
+    // var product = {1:'Mouse',2:'Keyboard',3:'Monitor'};
+    // print(product);
+    // print(product.runtimeType);
      
-    var course = {"python":20000,"Java":30000,"Cpp":15000};
-    print(course);
-    print(course.runtimeType);
+    // var course = {"python":20000,"Java":30000,"Cpp":15000};
+    // print(course);
+    // print(course.runtimeType);
+
+    // ## Empty Map
+    // Map Constructor
+    // var empty_map = Map();
+    // print(empty_map);
+    // print(empty_map.runtimeType);
+
+    // Map<String ,String> pro= Map();
+    // print(pro);
+    // print(pro.runtimeType);                 
+
+
+    // var prod = {};
+    // print(prod);
+    // print(prod.runtimeType);
+
+    // ## Add Item in Map
+
+    // var course1 = {};
+    // course1['name'] = 'Python';
+    // course1['duration'] = '3 months';
+    // print(course1);
+    // print(course1.runtimeType);
+
+
+    // // ##  Accessing  map Element
+
+    // var courses = {'course1':'python','course2':'JavaScript'};
+
+    // print(courses['course1']);
+    // print(courses['course2']);
+
+    // var address = {'name':'Abcd','city':'Mumbai','state':'MH'};
+    // print(address.length);
+    // print(address.isEmpty);
+    // print(address.isNotEmpty);
+    // print(address.keys);
+    // print(address.values);
+    // print(address.containsKey('name'));
+    // print(address.containsValue('MH'));
+
+    // # Control Flow Statements
+    // ## if Statement
+    var is_login = false;
+    if (is_login) {
+      print('Welcome To Dart');
+    }else{
+      print('condition is invalid'); 
+    }
 }
