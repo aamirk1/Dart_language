@@ -419,7 +419,7 @@ comment
     // print(course1.runtimeType);
 
 
-    // // ##  Accessing  map Element
+    // ##  Accessing  map Element
 
     // var courses = {'course1':'python','course2':'JavaScript'};
 
@@ -437,10 +437,10 @@ comment
 
     // # Control Flow Statements
     // ## if Statement
-    var is_login = false;
-    if (is_login) {
-      print('Welcome To Dart');
-    }else{
-      print('condition is invalid'); 
-    }
+    // var is_login = false;
+    // if (is_login) {
+    //   print('Welcome To Dart');
+    // }else{
+    //   print('condition is invalid'); 
+    // }
 }
